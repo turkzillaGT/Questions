@@ -13,9 +13,10 @@ namespace Question.Test.Implementation
         /// It must then calculate the square root using CalculateSquareRoot function and the approximate from the XML.
         /// A new node then needs to be inserted after the Approximate node called SquareRoot with the square root value.
         /// A new xDocument must be returned ie. the original xDocument parameter must not be overwritten.
+        /// See output_example.xml.
         /// </summary>
-        /// <param name="xDocument"></param>
-        /// <returns></returns>
+        /// <param name="xDocument">The XML without inserted square roots.</param>
+        /// <returns>The XML with inserted square roots. See output_example.xml as example output.</returns>
         public XDocument AddSquareRootToXml(XDocument xDocument)
         {
             throw new NotImplementedException(nameof(this.AddSquareRootToXml));
