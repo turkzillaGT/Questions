@@ -6,7 +6,7 @@ namespace Question.Test
     /// <summary>
     /// Tests the implementation.
     /// The tests are currently failing. 
-    /// Make changes to the implementation and tests below so they pass.
+    /// Make changes to the implementation so tests below pass.
     /// </summary>
     public class UnitTestQuestions
     {
